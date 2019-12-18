@@ -1,0 +1,97 @@
+/* Google.com Stylesheet */
+
+.menuleft {
+  padding-left: 15px;
+  float: left;
+  color: black;
+  opacity: 0.75;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  display: inline-block;
+  line-height: 24px;
+  font-size: 13px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.menuleft:hover {
+  text-decoration: underline;
+}
+
+.menuright {
+  padding: 5px;
+  float: right;
+  color: black;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  display: inline-block;
+  line-height: 24px;
+  font-size: 13px;
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.menuright:hover {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 81px;
+  width: 40%;
+}
+
+#logo {
+  height: 92px;
+  width: 272px;
+  padding-top: 109px;
+}
+
+#textbox {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  border-radius: 25px;
+  border: 1px solid #dedede;
+  margin: 24px 0;
+  background-color: transparent;
+  font: 16px arial,sans-serif;
+  line-height: 24px;
+  height: 24px !important;
+  width: 460px;
+  color: rgba(0,0,0,.87);
+}
+
+#textbox:focus {
+  outline: none;
+}
+
+#textbox:hover {
+  transform: scale(1.02);
+}
+
+.classysubmit {
+  font-family: arial, sans-serif;
+  line-height: 27px;
+  height: 36px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin: 4px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+}
