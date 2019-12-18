@@ -1,7 +1,8 @@
 /* Google.com Stylesheet */
 
 .menuleft {
-  padding-left: 15px;
+  padding-left: 17px;
+  padding-top: 11px;
   float: left;
   color: black;
   opacity: 0.75;
@@ -14,12 +15,17 @@
   vertical-align: middle;
 }
 
+#store {
+  padding-left: 18px;
+}
+
 .menuleft:hover {
   text-decoration: underline;
 }
 
 .menuright {
-  padding: 5px;
+  padding-top: 11px;
+  padding-right: 15px;
   float: right;
   color: black;
   text-decoration: none;
@@ -32,17 +38,19 @@
   vertical-align: middle;
 }
 
+#Images {
+  padding-right: 112px;
+}
+
 .menuright:hover {
   text-decoration: underline;
 }
 
 .center {
   text-align: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 81px;
-  width: 40%;
 }
 
 #logo {
